@@ -1,31 +1,20 @@
 
-@media screen and (max-width: 600px) {
-  .game {
-    width: 100%;
-    height: 400px;
-    /* estilos específicos para telas menores */
-  }
+/* Estilos padrão para todos os dispositivos */
+
+/* Estilos específicos para dispositivos com largura menor que 600px (exemplo de ponto de quebra) */
+@media (max-width: 600px) {
+  /* Estilos para dispositivos móveis */
 }
 
-/* Media query para telas menores ou iguais a 400px */
-@media screen and (max-width: 400px) {
-  .game {
-    width: 100%;
-    height: 300px;
-    /* estilos específicos para telas ainda menores */
-  }
+/* Estilos específicos para dispositivos com largura maior que 1200px (exemplo de ponto de quebra) */
+@media (min-width: 1200px) {
+  /* Estilos para laptops e dispositivos de tela grande */
 }
 
-  .container {
-    max-width: 100%; /* usar a largura total da tela */
-  }
-  .box {
-    max-width: 100%; /* usar a largura total da tela */
-  }
-
-
-
-
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   background-color: #0002A1;
