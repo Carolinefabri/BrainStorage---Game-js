@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brain Storage- The Game</title>
+</head>
+
+<body>
+    <div id="game">
+        <audio id="background-music" src="Eggy Toast - 7.mp3.mp3" autoplay loop></audio>
+
+    <main>
+        <!-- #game-start is initially shown on the game start screen -->
+        <div id="game-start">
+            <img class="imagem" src="Imagem/fundo1.png">
+            <img class="brainBooks" src="Imagem/ceeee-removebg-preview.png" alt="brain books">
+         <button id="start-button">Start Game</button><br>
+            <p class="letraCerebro">Use the left and right arrow to control the SuperBrain 🧠</p>
+
+        <img class="arrowAzul" src="Imagem/arrowazul-fotor-bg-remover-20230625214155.png" alt="" class="arrows-img" />
+    </div>
+        </div>
+
+        <!-- #game-screen is initially hidden using CSS style display: none -->
+        <div id="game-screen" style="display: none;" >
+          <div id="game-container">
+              <div class="scoreLetra">
+              
+                <p>Score: <span id="score">0</span></p>
+                <p>Chances: <span id="lives">3</span></p>
+              </div>
+          </div>
+      </div>
+
+      <div id="game-win" style="display: none;">
+        <!-- Conteúdo da tela de vitória -->
+        <img src="Imagem/won.png" class="gameoverFIM" />
+        <h2>You WON ! </h2>
+        <p class="goal">You've played enough, now.... </p>
+        <h2>Go read a book ! </h2>
+        <br />
+        <p class="final">Final Score: <span id="final-score-win"></span></p> <!-- Elemento para exibir a pontuação final -->
+        <button id="restart-button2">Restart</button>
+    </div>
+      
+      
+        <!-- #game-over CSS style display: none -->
+        <div id="game-end" style="display: none;">
+          <img src="Imagem/gameover2.png" class="gameoverFIM" />
+          <p class="goal">  Stop playing and... </p>
+          <h2>Go read a book</h2>
+          <br />
+          <button id="restart-button">Restart</button>
+         
+      </div>
+    </main>
+    <footer class='center'>Developed by Caroline Fabri &copy; 2023</footer>
+
+    <script type="text/javascript" src="player.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="obstacle.js"></script> 
+   <script type="text/javascript" src="script.js"></script>
+  
+</div>
+</body>
+
+</html>
