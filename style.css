@@ -1,14 +1,13 @@
 
-/* Estilos padrão para todos os dispositivos */
 
-/* Estilos específicos para dispositivos com largura menor que 600px (exemplo de ponto de quebra) */
+
+
 @media (max-width: 600px) {
-  /* Estilos para dispositivos móveis */
+ 
 }
 
-/* Estilos específicos para dispositivos com largura maior que 1200px (exemplo de ponto de quebra) */
 @media (min-width: 1200px) {
-  /* Estilos para laptops e dispositivos de tela grande */
+
 }
 
 .img-responsive {
@@ -17,9 +16,10 @@
 }
 
 body {
-  background-color: #0002A1;
+  background-color: #091434;
   margin: 0;
   padding: 0;
+
   text-align: center;
 }
 
@@ -48,42 +48,22 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 90%;
-  height: 150%;
+  width: 80%;
+  height: 50%;
   margin: 2% auto;
   padding: 20px 0;
   text-align: center;
+  margin-bottom: 5px;
 
 
 }
 
-
-
-p.neon {
-  text-align: center;
-  font-size: 28px;
-  color: #fff;
-  font-weight: bold;
-  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
-  animation: neon-glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes neon-glow {
-  from {
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
-  }
-  to {
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff;
-  }
-}
 
 p.letraCerebro {
   color: #fff;
   font-size: 17px;
   font-weight: bold;
-  text-shadow: 0 0 10px #B6EAFA, 0 0 20px #B6EAFA, 0 0 30px #B6EAFA;
-  animation: neon-glow 1s ease-in-out infinite alternate;
-   
+ 
   }
 
 
@@ -98,9 +78,9 @@ p.letraCerebro {
 
 .brainBooks {
   position: absolute;
-  top: 70%;
-  left: 50%;
-  width: 500px;
+  top: 60%;
+  left: 80%;
+  width: 150px;
   transform: translate(-50%, -50%);
   animation: fly-brainBooks 10s linear infinite;
 }
@@ -118,6 +98,106 @@ p.letraCerebro {
 }
 
 
+.brainBooks2 {
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  animation: fly-brainBooks 10s linear infinite;
+}
+
+@keyframes fly-brainBooks2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+
+
+.brainBooks3 {
+  position: absolute;
+  top: 110%;
+  right: 70%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  animation: fly-brainBooks3 10s linear infinite;
+}
+
+@keyframes fly-brainBooks3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+
+
+
+.brainBooks4 {
+  position: absolute;
+  top: 180%;
+  right: 75%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  animation: fly-brainBooks4 10s linear infinite;
+}
+
+@keyframes fly-brainBooks4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+
+
+.brainBooks5 {
+  position: absolute;
+  top: 160%;
+  left: 80%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  animation: fly-brainBooks5 10s linear infinite;
+}
+
+@keyframes fly-brainBooks5 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
 .center {
   text-align: center;
   color: white;
@@ -125,15 +205,11 @@ p.letraCerebro {
 }
 
 
-
 #game-start {
-  
   padding: 20px 0;
-
-/*   margin-top: 10%;
-  width: 100vw;
-  height: 100vh; */
+  margin-top: 5%; 
 }
+
 
 
 #game-container {
@@ -216,6 +292,7 @@ p.letraCerebro {
   box-shadow: 0;
   border-radius: 15px;
   margin-bottom: 20px;
+  
 }
 
 #start-button:hover {
