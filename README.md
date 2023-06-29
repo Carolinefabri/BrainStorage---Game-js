@@ -30,6 +30,8 @@ The Super Brain Game MVP seeks to provide a basic but complete experience of the
 
 ##Links
 
-######Slides Link 
+######Slides Link - https://docs.google.com/presentation/d/1_4v_wwN2qDsAL0iD4vyDAVxhjJLqcH-bbkYNBmUoEF8/edit#slide=id.g255fc240318_2_75
+
 ######Github repository Link - https://github.com/Carolinefabri/BrainStorage---Game-js.git
+
 ######Deployment Link - https://carolinefabri.github.io/BrainStorage---Game-js/ 
